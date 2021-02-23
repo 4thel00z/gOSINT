@@ -2,10 +2,9 @@
 LDFLAGS="-s -w"
 ${HOME}=()
 
-all: deps test gosint_build
+all: test gosint_build
 
-deps:
-	dep ensure
+.DEFAULT_GOAL := gosint_build
 
 test:
 	go test -v ./...
