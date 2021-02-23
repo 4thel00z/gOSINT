@@ -7,7 +7,7 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/Nhoya/gOSINT/internal/utils"
+	"github.com/4thel00z/gOSINT/internal/utils"
 )
 
 //Options contains the options for reversewhois module

@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Nhoya/gOSINT/internal/utils"
+	"github.com/4thel00z/gOSINT/internal/utils"
 )
 
 //Options contains the options needed for the PGP modules

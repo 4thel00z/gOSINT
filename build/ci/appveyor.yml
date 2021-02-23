@@ -2,7 +2,7 @@
 
 version: '{branch} - {build}'
 
-clone_folder: c:\gopath\src\github.com\Nhoya\gOSINT
+clone_folder: c:\gopath\src\github.com\4thel00z\gOSINT
 
 branches:
   only:

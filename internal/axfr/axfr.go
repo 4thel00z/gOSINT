@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/Nhoya/gOSINT/internal/utils"
+	"github.com/4thel00z/gOSINT/internal/utils"
 )
 
 //Options contains the options for the axfr module
