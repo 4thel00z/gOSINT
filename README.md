@@ -2,15 +2,9 @@
 
 OSINT Swiss Army Knife in Go
 
-Take a look at the [develop branch](https://github.com/4thel00z/gOSINT/tree/develop) for more updates.
-
 ## Introduction
 
 gOSINT is a multiplatform OSINT Swiss army knife in Golang. If you want, feel free to contribute and/or leave a feedback!
-
-## Like my project? Please consider donation :)
-
-[![Paypal Badge](https://img.shields.io/badge/Donate-PayPal-yellow.svg)](https://www.paypal.me/4thel00z) [![BTC Badge](https://img.shields.io/badge/Donate-BTC-yellow.svg)](https://pastebin.com/raw/nyDDPwaM) [![Monero Badge](https://img.shields.io/badge/Donate-XMR-yellow.svg)](https://pastebin.com/raw/dNUFqwuC) [![Ethereum Badge](https://img.shields.io/badge/Donate-Ethereum-yellow.svg)](https://pastebin.com/raw/S6XMmSiv)
 
 ## What gOSINT can do
 
@@ -27,8 +21,6 @@ Currently `gOSINT` has different modules:
 - [x] Search for password relatives to email address :P
 - [x] Reverse Whois given Email Address or Name
 
-A complete features list and roadmap is available under [Projects Tab](https://github.com/4thel00z/gOSINT/projects)
-
 ## Installation
 
 ### Dependencies
@@ -41,37 +33,15 @@ You can install `gOSINT` using `go get` with a simple
 
 `go get github.com/4thel00z/gOSINT/cmd/gosint`
 
-### Install On Windows
-
-Check the AppVeyor Build page for builds
-
 ## Manual Building
 
 ### Building On Linux
 
-Build gOSINT on linux is really easy, you just need to install [dep](https://github.com/golang/dep), clone the repository and `make` and `make install`
-
-### Building On Windows
-
-If you have `make` installed you can follow the Linux instructions (and skip `make install`) otherwise be sure to have [dep](https://github.com/golang/dep) installed, clone the directory and run
+Just run `make` and `make install`
 
 ```bash
-dep ensure
 go build cmd/gosint.go
 ```
-
-### Running on Docker
-
-gOSINT currently supports container only for the rolling release, after the 1.0.0 release we will start working on a versioned Dockerfile.
-If you want to try it out:
-
-```
-mkdir gOSINT
-wget https://raw.githubusercontent.com/4thel00z/gOSINT/develop/build/package/Dockerfile
-docker build gosint .
-docker run gosint bash
-```
-
 ## Usage
 
 ```bash
@@ -151,20 +121,4 @@ You can place it in different paths, load prioriy is:
 - `./config/ or $HOME/.config/`
 - `/etc/gosint/`
 
-If some API Keys are missing insert it there
-
-## PGP module Demo (**OUTDATED**)
-
-[![asciicast](https://asciinema.org/a/21PCpbgFqyHiTbPINexHKEywj.png)](https://asciinema.org/a/21PCpbgFqyHiTbPINexHKEywj)
-
-## Pwnd module Demo (**OUTDATED**)
-
-[![asciicast](https://asciinema.org/a/x9Ap0IRcNNcLfriVujkNUhFSF.png)](https://asciinema.org/a/x9Ap0IRcNNcLfriVujkNUhFSF)
-
-## Telegram Crawler Demo (**OUTDATED**)
-
-[![asciicast](https://asciinema.org/a/nbRO9FNpjiYXAKeI87xn29j9z.png)](https://asciinema.org/a/nbRO9FNpjiYXAKeI87xn29j9z)
-
-## Shodan module Demo (**OUTDATED**)
-
-[![asciicast](https://asciinema.org/a/9lfzAZ65n9MJCkrUrxoHZQYwP.png)](https://asciinema.org/a/9lfzAZ65n9MJCkrUrxoHZQYwP)
+If some API Keys are missing insert them there.
