@@ -122,3 +122,12 @@ You can place it in different paths, load prioriy is:
 - `/etc/gosint/`
 
 If some API Keys are missing insert them there.
+
+## Acknowledgements
+
+This is based on [Nhoya's work](https://github.com/Nhoya/gOSINT/), thx mate.
+
+
+## License
+
+This project is licensed under the GPL-3 license.
